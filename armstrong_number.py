@@ -21,6 +21,6 @@ while temp > 0:
 
 # Displaying the result
 if number == total:
-    print("The number {0} is armstrong.".format(str(number)))
+    print("The given number {0} is armstrong.".format(str(number)))
 else:
-    print("The number {0} is not armstrong.".format(str(number)))
+    print("The given number {0} is not armstrong.".format(str(number)))
