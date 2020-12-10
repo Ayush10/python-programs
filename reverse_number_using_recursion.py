@@ -23,6 +23,6 @@ else:
 
     # Displaying the result according to the type of it
     if number > 9:
-        print("The reverse number of %d is %d" % (number, reverse_number))
+        print("The reverse number of %d is %d." % (number, reverse_number))
     elif number < -9:
-        print("The reverse number of %d is -%d" % (number, reverse_number))
+        print("The reverse number of %d is -%d." % (number, reverse_number))

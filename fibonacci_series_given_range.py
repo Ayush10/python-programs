@@ -4,6 +4,7 @@ low = int(input("Enter lower limit: "))
 high = int(input("Enter upper limit: "))
 
 
+# Fibonacci Function
 def fibonacci_numbers(low, high):
     a = 0
     b = 1
@@ -26,5 +27,6 @@ def fibonacci_numbers(low, high):
     return numbers
 
 
+# Displaying the result
 print("The fibonacci numbers between the specified range of " + str(low) + " and " + str(high) +
-      " are: " + str(fibonacci_numbers(low, high))[1:-1])
+      " are: " + str(fibonacci_numbers(low, high))[1:-1] + ".")

@@ -32,6 +32,7 @@ def case_checker(t):
     return values
 
 
+# Checking condition for displaying result
 if case_checker(text)[1] == "same":
     print("The given string {0} is now being printed as the same string {1}"
           "as it doesnt satisfy the given condition.".format(text, text))

@@ -7,6 +7,7 @@ temp = number
 
 # Assigning the value to the reverse integer
 rev = 0
+
 # Finding the sum of the nth power of each digit
 while number > 0:
     digit = number % 10
@@ -18,4 +19,3 @@ if temp == rev:
     print("The number {0} is palindrome.".format(temp))
 else:
     print("The number {0} is not palindrome.".format(number))
-

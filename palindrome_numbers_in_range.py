@@ -4,6 +4,7 @@ low = int(input("Enter lower limit: "))
 high = int(input("Enter upper limitr: "))
 
 
+# Function for Palindrome numbers in range
 def palindrome_numbers_in_range(l, h):
     # Creating an empty list to store palindrome numbers
     numbers = []

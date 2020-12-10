@@ -3,6 +3,7 @@
 number = int(input("Enter any number: "))
 
 
+# Factorial Function
 def factorial(n):
     # Initializing the value of fact for later use
     fact = 1
@@ -15,4 +16,5 @@ def factorial(n):
     return fact
 
 
+# Displaying the result
 print("The factorial of the given number %d is %d." % (number, factorial(number)))

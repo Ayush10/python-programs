@@ -4,6 +4,7 @@ low = int(input("Enter lower limit: "))
 high = int(input("Enter upper limit: "))
 
 
+# Function for finding prime numbers in given range
 def prime_numbers(l, h):
     # Creating an empty list to store prime numbers
     numbers = []
@@ -20,12 +21,12 @@ def prime_numbers(l, h):
                 elif num % i == 0:
                     break
             else:
-                print(num)
                 numbers.append(num)
 
     return numbers
 
 
+# Displaying the result
 print("The prime numbers between the specified range of {0} and {1} are: {2}.".format(str(low), str(high),
                                                                                      str(prime_numbers(low, high))[
                                                                                      1:-1]))
